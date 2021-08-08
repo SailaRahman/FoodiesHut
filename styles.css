@@ -1,0 +1,131 @@
+.header-section, .about-section{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.half-width{
+    
+    width: 50%;
+    
+}
+.header-text h1{
+    font-size: 45px;
+    
+    margin-top: 100px;
+}
+.header-text h1>span{
+    color: sandybrown;
+}
+.header-text p{
+    font-size: 30px;
+    padding: 0 12px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 15px;
+    background-image: linear-gradient(orange,red);
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+img{
+    width: 100%;
+}
+.header-image img{
+    padding-top: 100px;
+}
+.about-section{
+    
+    padding-left: 150px;
+    margin: 10px 0px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+       
+}
+
+.about-image img{
+    width: 80%;
+    height: 600px;
+}
+.about-text{
+    padding-left: 25px;
+}
+.about-text h1{
+    padding-top: 70px;
+    font-size: 50px;
+}
+.about-text p{
+    width: 85%;
+    
+    font-size: 25px;
+}
+.recipe-header{
+    
+    text-align: center;
+    margin: 20px 60px;
+}
+.recipe-header h1{
+    font-size: 40px;
+}
+.recipe-header p{
+    margin-left: 200px;
+    width: 50%;
+    
+    font-size: 25px;
+    padding: 0 100px;
+    margin-top: -20px;
+}
+.recipe-images{
+    display: flex;
+}
+.recipe-image-box{
+    
+    width: 28%;
+    margin-left: 4%;
+    box-shadow: 5px 5px 5px 2px gray;
+    border-radius: 25px;
+    padding: 20px 20px;
+    
+}
+.recipe-image-box h1{
+    font-size: 25px;
+}
+.recipe-image-box p{
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+footer h1{
+    font-size: 80px;
+}
+footer p{
+    margin-top: -30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.extra-section{
+    margin-top: 50px;
+    
+}
+.extra-section-container{
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+}
+.extra-section-header h1{
+    font-size: 40px;
+}
+.social-links a{
+    background-image: none;
+    
+}
+.social-links a>img{
+    width: 5%;
+}
